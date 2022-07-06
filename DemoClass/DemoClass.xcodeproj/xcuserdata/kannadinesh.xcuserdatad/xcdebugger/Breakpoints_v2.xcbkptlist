@@ -14,8 +14,8 @@
             filePath = "DemoClass/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "nextClick(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "DemoClass/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "myNewButtonClickFunction()"
             landmarkType = "7">
          </BreakpointContent>

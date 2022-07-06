@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EC6EE342875A3AA00E20A75 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6EE332875A3AA00E20A75 /* Person.swift */; };
 		8ED1E60528746EE2007198C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1E60428746EE2007198C6 /* AppDelegate.swift */; };
 		8ED1E60728746EE2007198C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1E60628746EE2007198C6 /* SceneDelegate.swift */; };
 		8ED1E60928746EE2007198C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1E60828746EE2007198C6 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8EC6EE332875A3AA00E20A75 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		8ED1E60128746EE2007198C6 /* DemoClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED1E60428746EE2007198C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ED1E60628746EE2007198C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				8ED1E60628746EE2007198C6 /* SceneDelegate.swift */,
 				8ED1E60828746EE2007198C6 /* ViewController.swift */,
 				8ED1E61B28746FBF007198C6 /* NextViewController.swift */,
+				8EC6EE332875A3AA00E20A75 /* Person.swift */,
 				8ED1E60A28746EE2007198C6 /* Main.storyboard */,
 				8ED1E61028746EE7007198C6 /* Assets.xcassets */,
 				8ED1E61228746EE7007198C6 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ED1E61C28746FBF007198C6 /* NextViewController.swift in Sources */,
+				8EC6EE342875A3AA00E20A75 /* Person.swift in Sources */,
 				8ED1E60928746EE2007198C6 /* ViewController.swift in Sources */,
 				8ED1E60F28746EE2007198C6 /* DemoClass.xcdatamodeld in Sources */,
 				8ED1E60528746EE2007198C6 /* AppDelegate.swift in Sources */,

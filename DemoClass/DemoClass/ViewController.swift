@@ -21,8 +21,27 @@ class ViewController: UIViewController {
         myNewButton.setTitleColor(.red, for: .normal)
         myNewButton.addTarget(self, action: #selector(myNewButtonClickFunction), for: .touchUpInside)
         self.view.addSubview(myNewButton)
+
+//        let a1 = Address.init()
+//        let prof1 = ProfessionalDetails.init()
+        let p1 = Person.init()
+        p1.firstName = "Nitisha"
+//        let p1 = Person.init(firstName: "Nitisha", lastName: "Reddy", height: 60, address: a1, professional: prof1)
+        
+        var p2 = p1
+        p2.firstName = "Dinesh"
+        
+        print(p1.firstName,p2.firstName)
         
         
+        
+        var e1 = Employee.init()
+        e1.firstName = "NItisha Employe"
+        
+        var e2 = e1
+        e2.firstName = "Dinesh Employe"
+        
+        print(e1.firstName,e2.firstName)
         
     }
     
