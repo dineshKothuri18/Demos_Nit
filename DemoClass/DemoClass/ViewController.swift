@@ -42,7 +42,8 @@ class ViewController: UIViewController {
         e2.firstName = "Dinesh Employe"
         
         print(e1.firstName,e2.firstName)
-        
+        let name = "iOS Class"
+        print(name.countTheLetter(cha: "s"))
     }
     
     @objc func myNewButtonClickFunction()  {
@@ -55,5 +56,33 @@ class ViewController: UIViewController {
         
     }
     
+    
 }
 
+extension ViewController : UITableViewDelegate,UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ABC") as! UITableViewCell
+        
+        return cell
+        
+    }
+    
+    
+    
+}
+
+extension String {
+    func countTheLetter(cha:Character) -> Int {
+        var count = 0
+        for c in self{
+            if(c == cha){
+                count = count + 1
+            }
+        }
+        return count
+    }
+}
