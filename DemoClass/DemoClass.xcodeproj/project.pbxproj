@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E0986D7287C4FE300989EE7 /* ViewCycleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0986D6287C4FE300989EE7 /* ViewCycleVC.swift */; };
+		8E0986D9287C516C00989EE7 /* ViewCycle2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0986D8287C516C00989EE7 /* ViewCycle2VC.swift */; };
+		8E0986DB287C57DA00989EE7 /* MyContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0986DA287C57DA00989EE7 /* MyContactsVC.swift */; };
+		8E0986DE287C5FC900989EE7 /* MyCustomTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0986DC287C5FC900989EE7 /* MyCustomTVCell.swift */; };
+		8E0986DF287C5FC900989EE7 /* MyCustomTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E0986DD287C5FC900989EE7 /* MyCustomTVCell.xib */; };
 		8EC6EE342875A3AA00E20A75 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6EE332875A3AA00E20A75 /* Person.swift */; };
 		8EC6EE3628784AE900E20A75 /* VariableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6EE3528784AE900E20A75 /* VariableViewController.swift */; };
 		8ED1E60528746EE2007198C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1E60428746EE2007198C6 /* AppDelegate.swift */; };
@@ -20,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E0986D6287C4FE300989EE7 /* ViewCycleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCycleVC.swift; sourceTree = "<group>"; };
+		8E0986D8287C516C00989EE7 /* ViewCycle2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCycle2VC.swift; sourceTree = "<group>"; };
+		8E0986DA287C57DA00989EE7 /* MyContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContactsVC.swift; sourceTree = "<group>"; };
+		8E0986DC287C5FC900989EE7 /* MyCustomTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTVCell.swift; sourceTree = "<group>"; };
+		8E0986DD287C5FC900989EE7 /* MyCustomTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomTVCell.xib; sourceTree = "<group>"; };
 		8EC6EE332875A3AA00E20A75 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		8EC6EE3528784AE900E20A75 /* VariableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableViewController.swift; sourceTree = "<group>"; };
 		8ED1E60128746EE2007198C6 /* DemoClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,7 +80,12 @@
 				8EC6EE3528784AE900E20A75 /* VariableViewController.swift */,
 				8ED1E61B28746FBF007198C6 /* NextViewController.swift */,
 				8EC6EE332875A3AA00E20A75 /* Person.swift */,
+				8E0986D6287C4FE300989EE7 /* ViewCycleVC.swift */,
+				8E0986D8287C516C00989EE7 /* ViewCycle2VC.swift */,
+				8E0986DA287C57DA00989EE7 /* MyContactsVC.swift */,
 				8ED1E60A28746EE2007198C6 /* Main.storyboard */,
+				8E0986DC287C5FC900989EE7 /* MyCustomTVCell.swift */,
+				8E0986DD287C5FC900989EE7 /* MyCustomTVCell.xib */,
 				8ED1E61028746EE7007198C6 /* Assets.xcassets */,
 				8ED1E61228746EE7007198C6 /* LaunchScreen.storyboard */,
 				8ED1E61528746EE7007198C6 /* Info.plist */,
@@ -139,6 +154,7 @@
 			files = (
 				8ED1E61428746EE7007198C6 /* LaunchScreen.storyboard in Resources */,
 				8ED1E61128746EE7007198C6 /* Assets.xcassets in Resources */,
+				8E0986DF287C5FC900989EE7 /* MyCustomTVCell.xib in Resources */,
 				8ED1E60C28746EE2007198C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,11 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0986D7287C4FE300989EE7 /* ViewCycleVC.swift in Sources */,
+				8E0986D9287C516C00989EE7 /* ViewCycle2VC.swift in Sources */,
+				8E0986DE287C5FC900989EE7 /* MyCustomTVCell.swift in Sources */,
 				8ED1E61C28746FBF007198C6 /* NextViewController.swift in Sources */,
 				8EC6EE342875A3AA00E20A75 /* Person.swift in Sources */,
 				8ED1E60928746EE2007198C6 /* ViewController.swift in Sources */,
 				8ED1E60F28746EE2007198C6 /* DemoClass.xcdatamodeld in Sources */,
 				8EC6EE3628784AE900E20A75 /* VariableViewController.swift in Sources */,
+				8E0986DB287C57DA00989EE7 /* MyContactsVC.swift in Sources */,
 				8ED1E60528746EE2007198C6 /* AppDelegate.swift in Sources */,
 				8ED1E60728746EE2007198C6 /* SceneDelegate.swift in Sources */,
 			);
