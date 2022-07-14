@@ -19,6 +19,8 @@
 		036E7AEA287447B60058E127 /* tableViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E7AE9287447B60058E127 /* tableViewDemoUITests.swift */; };
 		036E7AEC287447B60058E127 /* tableViewDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E7AEB287447B60058E127 /* tableViewDemoUITestsLaunchTests.swift */; };
 		038ECE1A287E5E5200180EEA /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038ECE19287E5E5200180EEA /* FourthViewController.swift */; };
+		8EBB83B22880395900000C63 /* StructDetailVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB83B12880395900000C63 /* StructDetailVCViewController.swift */; };
+		8EBB83B42880430B00000C63 /* DataFile in Resources */ = {isa = PBXBuildFile; fileRef = 8EBB83B32880430B00000C63 /* DataFile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		036E7AE9287447B60058E127 /* tableViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewDemoUITests.swift; sourceTree = "<group>"; };
 		036E7AEB287447B60058E127 /* tableViewDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		038ECE19287E5E5200180EEA /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		8EBB83B12880395900000C63 /* StructDetailVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructDetailVCViewController.swift; sourceTree = "<group>"; };
+		8EBB83B32880430B00000C63 /* DataFile */ = {isa = PBXFileReference; lastKnownFileType = text; path = DataFile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +115,12 @@
 				0361F0EA2876F15F004D63F7 /* SecondViewController.swift */,
 				033D5ADA287C9AFA00041847 /* ThirdViewController.swift */,
 				038ECE19287E5E5200180EEA /* FourthViewController.swift */,
+				8EBB83B12880395900000C63 /* StructDetailVCViewController.swift */,
 				036E7ACE287447B30058E127 /* Main.storyboard */,
 				036E7AD1287447B60058E127 /* Assets.xcassets */,
 				036E7AD3287447B60058E127 /* LaunchScreen.storyboard */,
 				036E7AD6287447B60058E127 /* Info.plist */,
+				8EBB83B32880430B00000C63 /* DataFile */,
 			);
 			path = tableViewDemo;
 			sourceTree = "<group>";
@@ -242,6 +248,7 @@
 			files = (
 				036E7AD5287447B60058E127 /* LaunchScreen.storyboard in Resources */,
 				036E7AD2287447B60058E127 /* Assets.xcassets in Resources */,
+				8EBB83B42880430B00000C63 /* DataFile in Resources */,
 				036E7AD0287447B30058E127 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +276,7 @@
 			files = (
 				038ECE1A287E5E5200180EEA /* FourthViewController.swift in Sources */,
 				0361F0EB2876F15F004D63F7 /* SecondViewController.swift in Sources */,
+				8EBB83B22880395900000C63 /* StructDetailVCViewController.swift in Sources */,
 				036E7ACD287447B30058E127 /* ViewController.swift in Sources */,
 				033D5ADB287C9AFB00041847 /* ThirdViewController.swift in Sources */,
 				036E7AC9287447B30058E127 /* AppDelegate.swift in Sources */,
