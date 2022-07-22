@@ -11,6 +11,7 @@ struct DetailsObject {
     var name : String!
     var email : String!
     var phoneNumber : String!
+    var address:String!
 }
 struct Option {
     let title: String
