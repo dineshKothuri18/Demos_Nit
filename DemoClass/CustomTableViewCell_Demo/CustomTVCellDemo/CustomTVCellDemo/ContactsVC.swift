@@ -7,17 +7,21 @@
 
 import UIKit
 
+struct Contacts {
+    var name: String
+    var phoneNmber: String
+    var email: String
+    var image: String
+}
+struct Sections{
+    var title: String
+    var rows: [Contacts]
+}
+
 class ContactsVC: UIViewController {
-    struct Sections{
-        var title: String
-        var rows: [Contacts]
-        }
-    struct Contacts {
-        var name: String
-        var phoneNmber: String
-        var email: String
-        var image: String
-        }
+    
+    
+    @IBOutlet weak var profileImageView: UIImageView!
     var tableViewModel = [Sections]()
 
     @IBOutlet weak var tableView: UITableView!
@@ -51,12 +55,31 @@ class ContactsVC: UIViewController {
         
         tableViewModel=[section1,section2,section3]
         
-        let nib = UINib.init(nibName: "ContactTVCell", bundle: nil)
-        self.tableView.register(nib, forCellReuseIdentifier: String.init(describing: ContactTVCell.self))
+        let nib = UINib.init(nibName: "ProgramaticalTVCell", bundle: nil)
+        self.tableView.register(nib, forCellReuseIdentifier: String.init(describing: ProgramaticalTVCell.self))
         view.addSubview(tableView)
-
+        imageViewIntializer()
     }
-
+    func imageViewIntializer()  {
+        profileImageView.image = UIImage.init(named: "goImage")
+        profileImageView.highlightedImage = UIImage.init(named: "image1")
+        var animatedImages = [UIImage]()
+        for i in 1...5 {
+            let img = UIImage.init(named: "image\(i)")
+            animatedImages.append(img!)
+        }
+        profileImageView.animationImages = animatedImages
+        profileImageView.animationDuration = 1
+    }
+    @IBAction func startClick(_ sender: Any) {
+//        profileImageView.isHighlighted = true
+        profileImageView.startAnimating()
+    }
+    
+    @IBAction func stopClick(_ sender: Any) {
+//        profileImageView.isHighlighted = false
+        profileImageView.stopAnimating()
+    }
 }
 
 extension ContactsVC : UITableViewDelegate,UITableViewDataSource {
@@ -67,11 +90,8 @@ extension ContactsVC : UITableViewDelegate,UITableViewDataSource {
         return tableViewModel[section].rows.count
 }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ContactTVCell") as! ContactTVCell
-        cell.nameLable.text = tableViewModel[indexPath.section].rows[indexPath.row].name
-        cell.phoneNumLable.text = tableViewModel[indexPath.section].rows[indexPath.row].phoneNmber
-        cell.emailLable.text = tableViewModel[indexPath.section].rows[indexPath.row].email
-        cell.profileImageView.image = UIImage.init(named: tableViewModel[indexPath.section].rows[indexPath.row].image)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ProgramaticalTVCell") as! ProgramaticalTVCell
+        cell.setUI(dataObj: tableViewModel[indexPath.section].rows[indexPath.row])
         return cell
     }
     
@@ -80,6 +100,11 @@ extension ContactsVC : UITableViewDelegate,UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("tapped")
+        let cell = tableView.cellForRow(at: indexPath)
+        cell?.contentView.backgroundColor = .red
+    }
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        
     }
     
     

@@ -24,6 +24,15 @@ class ContactTVCell: UITableViewCell {
         // Initialization code
     }
 
+    func setUI(dataObj:Contacts) {
+        nameLable.text = dataObj.name
+        phoneNumLable.text = dataObj.phoneNmber
+        emailLable.text = dataObj.email
+//        DispatchQueue.main.async {
+//            cell.profileImageView.image = UIImage.init(named: self.tableViewModel[indexPath.section].rows[indexPath.row].image)
+//        }
+        
+    }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

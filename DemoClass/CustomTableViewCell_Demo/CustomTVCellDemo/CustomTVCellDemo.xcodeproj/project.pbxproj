@@ -16,6 +16,8 @@
 		8E71E4F9288B15CE00029B4B /* ContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E71E4F8288B15CE00029B4B /* ContactsVC.swift */; };
 		8E71E4FC288B177C00029B4B /* ContactTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E71E4FA288B177C00029B4B /* ContactTVCell.swift */; };
 		8E71E4FD288B177C00029B4B /* ContactTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E71E4FB288B177C00029B4B /* ContactTVCell.xib */; };
+		8E71E501288EBD4F00029B4B /* ProgramaticalTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E71E4FF288EBD4F00029B4B /* ProgramaticalTVCell.swift */; };
+		8E71E502288EBD4F00029B4B /* ProgramaticalTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E71E500288EBD4F00029B4B /* ProgramaticalTVCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		8E71E4F8288B15CE00029B4B /* ContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsVC.swift; sourceTree = "<group>"; };
 		8E71E4FA288B177C00029B4B /* ContactTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTVCell.swift; sourceTree = "<group>"; };
 		8E71E4FB288B177C00029B4B /* ContactTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTVCell.xib; sourceTree = "<group>"; };
+		8E71E4FF288EBD4F00029B4B /* ProgramaticalTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramaticalTVCell.swift; sourceTree = "<group>"; };
+		8E71E500288EBD4F00029B4B /* ProgramaticalTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgramaticalTVCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 			children = (
 				8E71E4FA288B177C00029B4B /* ContactTVCell.swift */,
 				8E71E4FB288B177C00029B4B /* ContactTVCell.xib */,
+				8E71E4FF288EBD4F00029B4B /* ProgramaticalTVCell.swift */,
+				8E71E500288EBD4F00029B4B /* ProgramaticalTVCell.xib */,
 			);
 			path = CustomTVCells;
 			sourceTree = "<group>";
@@ -145,6 +151,7 @@
 				8E71E4FD288B177C00029B4B /* ContactTVCell.xib in Resources */,
 				8E71E4F1288B157A00029B4B /* LaunchScreen.storyboard in Resources */,
 				8E71E4EE288B157A00029B4B /* Assets.xcassets in Resources */,
+				8E71E502288EBD4F00029B4B /* ProgramaticalTVCell.xib in Resources */,
 				8E71E4E9288B157600029B4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +167,7 @@
 				8E71E4FC288B177C00029B4B /* ContactTVCell.swift in Sources */,
 				8E71E4E4288B157600029B4B /* SceneDelegate.swift in Sources */,
 				8E71E4EC288B157600029B4B /* CustomTVCellDemo.xcdatamodeld in Sources */,
+				8E71E501288EBD4F00029B4B /* ProgramaticalTVCell.swift in Sources */,
 				8E71E4F9288B15CE00029B4B /* ContactsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
